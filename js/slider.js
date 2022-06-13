@@ -70,7 +70,7 @@ new Swiper('.events__slider', {
 
   breakpoints: {
 
-    740: {
+    720: {
       slidesPerView: 2,
       spaceBetween: 34,
       slidesPerGroup: 2,

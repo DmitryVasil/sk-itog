@@ -5,7 +5,7 @@ document.querySelectorAll(".dropdown__list").forEach(dropdown => {
   /* чтобы изначально ползунок был виден */
   autoHide: false,
   /* с помощью этого значения вы можете управлять высотой ползунка*/
-  scrollbarMaxSize: 30,
+  // scrollbarMaxSize: 30,
 });
 })
 
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		el.addEventListener('click', (e) => {
 			let currentBtn = e.currentTarget;
 			let drop = currentBtn.closest('.menu__item').querySelector('.menu__dropdown');
-			
+
 			menuBtns.forEach (el => {
 				if (el!==currentBtn) {
 				el.classList.remove('menu__btn--active');
@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	document.addEventListener('click', (e) => {
 		if (!e.target.closest('.menu')) {
-			menuBtns.forEach (el => {				 
-				el.classList.remove('menu__btn--active');				
+			menuBtns.forEach (el => {
+				el.classList.remove('menu__btn--active');
 			});
 
 			drops.forEach(el => {
