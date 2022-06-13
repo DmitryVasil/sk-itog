@@ -500,8 +500,8 @@ button {
     padding-right: 19px;
     /* padding: 40px; */
     /* padding-bottom: 20px; */
-    width: 250px;
-    height: 250px;
+    width: 246px;
+    height: 222px;
   }
 
   .menu__dropdown--item {
@@ -523,6 +523,7 @@ button {
 
   .menu__dropdown--item:hover {
     outline: 2px solid #9D5CD0;
+    outline-offset: -2px;
   }
 
   .menu__dropdown--item:focus {
@@ -531,6 +532,7 @@ button {
 
   .menu__dropdown--item:focus-within {
     outline: 2px solid #9D5CD0;
+    outline-offset: -2px;
   }
 
   .menu__dropdown--item:not(:last-child) {
