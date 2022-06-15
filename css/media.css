@@ -300,6 +300,10 @@
 		margin-bottom: 22px;
 	}
 
+  .is-open .choices__list--dropdown {
+    background-color: black;
+  }
+
 	.catalog__burger {
 		margin-bottom: 49px;
 	}
@@ -605,6 +609,8 @@
 		margin-bottom: 37px;
 	}
 
+
+
 	.catalog {
 		padding: 50px 0;
 	}
@@ -648,6 +654,24 @@
 		font-size: 18px;
 		line-height: 32px;
 	}
+
+  .ac__empty-left-block {
+    height: max-content;
+    margin-right: 20px;
+  }
+
+  .ac__empty-left-block-bg {
+    /* height: 100%; */
+    width: auto;
+    min-width: 118px;
+    margin: 6px;
+  }
+
+  .ac__empty-right-block-title {
+    font-size: 18px;
+line-height: 22px;
+font-weight: 600;
+  }
 
 	.ac-trigger svg {
 		width: 30px;
