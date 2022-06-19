@@ -2,8 +2,8 @@
 // document.addEventListener('DOMContentLoaded', function() {
 new Swiper('.gallery__slider', {
   navigation: {
-      nextEl: '.gallery__arrow_next',
-      prevEl: '.gallery__arrow_prev',
+      nextEl: '.gallery__arrow-next',
+      prevEl: '.gallery__arrow-prev',
     },
 
   loop: false,
@@ -54,7 +54,7 @@ new Swiper('.events__slider', {
   slidesPerGroup: 1,
 
   navigation: {
-    nextEl: '.events__arrow_next',
+    nextEl: '.events__arrow-next',
     prevEl: '.swiper-button-prev',
   },
 
@@ -82,11 +82,12 @@ new Swiper('.events__slider', {
     //   slidesPerGroup: 1,
     // },
 
-    940: {
+    1020: {
       slidesPerView: 3,
       spaceBetween: 27,
       slidesPerGroup: 3,
     },
+
 
     1240: {
       slidesPerView: 3,
@@ -97,8 +98,8 @@ new Swiper('.events__slider', {
 
   new Swiper('.projects__swiper', {
     navigation: {
-        nextEl: '.project__arrow_next',
-        prevEl: '.project__arrow_prev',
+        nextEl: '.projects__arrow-next',
+        prevEl: '.projects__arrow-prev',
       },
 
     loop: true,

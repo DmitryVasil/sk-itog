@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', function() {
     document.querySelector('#burger').addEventListener('click', function() {
         document.querySelector('#menu').classList.add('is-active1');
         document.querySelector('body').classList.add('lock');
-      
+
         document.querySelector('#burger-cloused').addEventListener('click', function() {
             document.querySelector('#menu').classList.remove('is-active1');
             document.querySelector('body').classList.remove('lock');
@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function() {
     //     document.querySelector('#menu').classList.remove('is-active1');
     //     document.querySelector('body').classList.remove('lock');
     // });
-    
+
 })
 
 // $(document).ready(function() {
@@ -39,5 +39,5 @@ window.addEventListener('DOMContentLoaded', function() {
             document.querySelector('#input-box').classList.remove('is-active');
     })
         })
-        
+
 })

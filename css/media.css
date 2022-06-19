@@ -90,7 +90,7 @@
         display: inherit;
     }
 
-    .lk__link {
+    .lk-link {
       display: none;
   }
 }
@@ -178,7 +178,7 @@
     /* margin: 0 6%; */
   }
 
-	.projects__slide--link {
+	.projects__slide-link {
 		height: 128px;
 	}
 
@@ -191,7 +191,7 @@
 
 	}
 
-	.btn__input {
+	.form__btn {
 		flex-basis: 37%;
 
 	}
@@ -225,8 +225,12 @@
 	}
 
 	.events__block {
-		min-height: 550px;
+		/* min-height: 550px; */
 	}
+
+  .events__img {
+    width: 100%;
+  }
 
   .events .swiper-wrapper {
     margin-bottom: 40px;
@@ -236,7 +240,7 @@
 
 @media (max-width: 940px) {
 	.events__block {
-		max-width: 247px;
+		/* max-width: 247px; */
 	}
 
 	.form {
@@ -247,7 +251,7 @@
 		flex-basis: 48%;
 	}
 
-	.btn__input {
+	.form__btn {
 		height: 50px;
 		flex-basis: 48%;
 	}
@@ -346,7 +350,7 @@
 
 
 
-	.projects__slide--link {
+	.projects__slide-link {
 		height: 106px;
 	}
 
@@ -368,7 +372,7 @@
 		margin-bottom: 39px;
 	}
 
-	.btn__input {
+	.form__btn {
 		margin-bottom: 30px;
 	}
 }
@@ -428,11 +432,11 @@
 		padding: 12px 18px;
 	}
 
-	.btn__input--dext {
+	.form__btn-dext {
 		display: none;
 	}
 
-	.btn__input--min {
+	.form__btn-min {
 		display: block;
 	}
 
@@ -455,7 +459,7 @@
 		background-size: cover;
 	}
 
-	.bugrer__box .lk__link {
+	.burger .lk-link {
 		padding: 10px 25px;
 	}
 
@@ -497,7 +501,7 @@
 		height: 100%;
 	}
 
-	.bugrer__box {
+	.burger {
 		padding-top: 15px;
 		padding-left: 15px;
 	}
@@ -726,7 +730,7 @@ font-weight: 600;
 		margin-bottom: 10px;
 	}
 
-	.projects__slide--link {
+	.projects__slide-link {
 		height: 65px;
 	}
 
@@ -770,7 +774,7 @@ font-weight: 600;
 		margin-bottom: 20px;
 	}
 
-	.btn__input--min {
+	.form__btn-min {
 		margin-top: 9px;
 		height: 41px;
 		font-weight: 700;
@@ -784,7 +788,7 @@ font-weight: 600;
   }
 
   .just-validate-error-label {
-    top: -7px;
+    top: 49px;
   }
 
 	.location__title {
@@ -809,7 +813,7 @@ font-weight: 600;
 		margin-bottom: 17px;
 	}
 
-	.map__block {
+	.map-block {
 		height: 320px;
 	}
 
@@ -817,15 +821,15 @@ font-weight: 600;
 		flex-basis: 100%;
 	}
 
-	.btn__input {
+	.form__btn {
 		flex-basis: 45%;
 	}
 
-	.btn__input--dext {
+	.form__btn-dext {
 		display: none;
 	}
 
-	.btn__input--min {
+	.form__btn-min {
 		display: block;
 	}
 

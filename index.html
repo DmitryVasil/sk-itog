@@ -30,6 +30,7 @@
 		<script defer src="libs/choices.min.js"></script>
 		<script defer src="libs/accordion.min.js"></script>
 
+    <script defer src="js/input.js"></script>
 		<script defer src="js/burger.js"></script>
 		<script defer src="js/tooltip.js"></script>
 		<script defer src="js/header__bot.js"></script>
@@ -41,7 +42,8 @@
 </head>
 <body>
 		<header class="header">
-			<div id="menu" class="bugrer__box">
+      <h1 class="h1">Blanchard</h1>
+			<div id="menu" class="burger">
 				<button tabindex="0" class="burger__btn-cloused" id = "burger-cloused">
 					<svg width="36" height="36" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g clip-path="url(#clip0_136320_4417)">
@@ -63,7 +65,7 @@
 					<li class="burger__item"><a href="#projects" class="burger__link">Проекты</a></li>
 					<li class="burger__item"><a href="#location" class="burger__link">Контакты</a></li>
 				</ul>
-				<a href="" class="lk__link">
+				<a href="" class="lk-link">
 					<svg width="18" height="18" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M5.12056 9.09278L6.13889 10.1111L9.75 6.5L6.13889 2.88889L5.12056 3.90722L6.98389 5.77778H0V7.22222H6.98389L5.12056 9.09278ZM11.5556 0H1.44444C0.642778 0 0 0.65 0 1.44444V4.33333H1.44444V1.44444H11.5556V11.5556H1.44444V8.66667H0V11.5556C0 12.35 0.642778 13 1.44444 13H11.5556C12.35 13 13 12.35 13 11.5556V1.44444C13 0.65 12.35 0 11.5556 0Z" fill="white"/>
 					</svg>
@@ -108,13 +110,13 @@
 							</ul>
 						</nav>
 					</div>
-						<a href="" class="lk__link lk__link-dext">
-							<svg class="lk__link-dext-svg-def" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<a href="" class="lk-link lk-link-dext">
+							<!-- <svg class="lk__link-dext-svg-def" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M5.12056 9.09278L6.13889 10.1111L9.75 6.5L6.13889 2.88889L5.12056 3.90722L6.98389 5.77778H0V7.22222H6.98389L5.12056 9.09278ZM11.5556 0H1.44444C0.642778 0 0 0.65 0 1.44444V4.33333H1.44444V1.44444H11.5556V11.5556H1.44444V8.66667H0V11.5556C0 12.35 0.642778 13 1.44444 13H11.5556C12.35 13 13 12.35 13 11.5556V1.44444C13 0.65 12.35 0 11.5556 0Z" fill="white"/>
 							</svg>
 							<svg class="lk__link-dext-svg-hover" width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M9.62056 9.09278L10.6389 10.1111L14.25 6.5L10.6389 2.88889L9.62056 3.90722L11.4839 5.77778H0V7.22222H11.4839L9.62056 9.09278ZM16.0556 0H5.94444C5.14278 0 4.5 0.65 4.5 1.44444V4.33333H5.94444V1.44444H16.0556V11.5556H5.94444V8.66667H4.5V11.5556C4.5 12.35 5.14278 13 5.94444 13H16.0556C16.85 13 17.5 12.35 17.5 11.5556V1.44444C17.5 0.65 16.85 0 16.0556 0Z" fill="#C283F3"/>
-							</svg>
+							</svg> -->
 							Войти
 						</a>
 						<button id="search" class=" btn-search-tab">
@@ -147,25 +149,25 @@
 						<ul class="menu">
 							<li class="menu__item">
 								<button class="menu__btn menu__btn-bg">Реализм</button>
-								<div class="menu__dropdown" >
-									<ul class="dropdown__list" data-simplebar>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-1-1.jpg)">
-											<a href="" class="menu__dropdown--link">Тинторетто</a>
+								<div class="menu__dropdown">
+									<ul class="menu__dropdown-list" data-simplebar>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-1-1.jpg)">
+											<a href="" class="menu__dropdown-link">Тинторетто</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-1-2.jpg)">
-											<a href="" class="menu__dropdown--link">Фридрих</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-1-2.jpg)">
+											<a href="" class="menu__dropdown-link">Фридрих</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-1-3.jpg)">
-											<a href="" class="menu__dropdown--link">Леонардо</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-1-3.jpg)">
+											<a href="" class="menu__dropdown-link">Леонардо</a>
 										</li>
-										<li class="menu__dropdown--item"  style="background-image: url(img/header-drop-1-4.jpg)">
-											<a href="" class="menu__dropdown--link">Верроккьо</a>
+										<li class="menu__dropdown-item"  style="background-image: url(img/header-drop-1-4.jpg)">
+											<a href="" class="menu__dropdown-link">Верроккьо</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-1-1.jpg)">
-											<a href="" class="menu__dropdown--link">Верроккьо</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-1-1.jpg)">
+											<a href="" class="menu__dropdown-link">Верроккьо</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-1-1.jpg)">
-											<a href="" class="menu__dropdown--link">Верроккьо</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-1-1.jpg)">
+											<a href="" class="menu__dropdown-link">Верроккьо</a>
 										</li>
 									</ul>
 								</div>
@@ -173,18 +175,18 @@
 							<li class="menu__item">
 								<button class="menu__btn">Импрессионизм</button>
 								<div class="menu__dropdown" >
-									<ul class="dropdown__list" data-simplebar>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-2-1.jpg)">
-											<a href="" class="menu__dropdown--link">Моне</a>
+									<ul class="menu__dropdown-list" data-simplebar>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-2-1.jpg)">
+											<a href="" class="menu__dropdown-link">Моне</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-2-2.jpg)">
-											<a href="" class="menu__dropdown--link">Сислей</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-2-2.jpg)">
+											<a href="" class="menu__dropdown-link">Сислей</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-2-3.jpg)">
-											<a href="" class="menu__dropdown--link">Мане</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-2-3.jpg)">
+											<a href="" class="menu__dropdown-link">Мане</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-2-4.jpg)">
-											<a href="" class="menu__dropdown--link">Ренуар</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-2-4.jpg)">
+											<a href="" class="menu__dropdown-link">Ренуар</a>
 										</li>
 									</ul>
 								</div>
@@ -192,18 +194,18 @@
 							<li class="menu__item">
 								<button class="menu__btn">Постимпрессионизм</button>
 								<div class="menu__dropdown">
-									<ul class="dropdown__list"  data-simplebar>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-3-1.jpg)">
-											<a href="" class="menu__dropdown--link">Ван Гог</a>
+									<ul class="menu__dropdown-list"  data-simplebar>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-3-1.jpg)">
+											<a href="" class="menu__dropdown-link">Ван Гог</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-3-2.jpg)">
-											<a href="" class="menu__dropdown--link">Сезанн</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-3-2.jpg)">
+											<a href="" class="menu__dropdown-link">Сезанн</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-3-3.jpg)">
-											<a href="" class="menu__dropdown--link">Гоген</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-3-3.jpg)">
+											<a href="" class="menu__dropdown-link">Гоген</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-3-4.jpg)">
-											<a href="" class="menu__dropdown--link">Сёра</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-3-4.jpg)">
+											<a href="" class="menu__dropdown-link">Сёра</a>
 										</li>
 									</ul>
 								</div>
@@ -211,18 +213,18 @@
 							<li class="menu__item">
 								<button class="menu__btn">Авангард</button>
 								<div class="menu__dropdown" >
-									<ul class="dropdown__list" data-simplebar>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-4-1.jpg)">
-											<a href="" class="menu__dropdown--link">Кандинский</a>
+									<ul class="menu__dropdown-list" data-simplebar>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-4-1.jpg)">
+											<a href="" class="menu__dropdown-link">Кандинский</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-4-2.jpg)">
-											<a href="" class="menu__dropdown--link">Маринетти</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-4-2.jpg)">
+											<a href="" class="menu__dropdown-link">Маринетти</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-4-3.jpg)">
-											<a href="" class="menu__dropdown--link">Малевич</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-4-3.jpg)">
+											<a href="" class="menu__dropdown-link">Малевич</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-4-4.jpg)">
-											<a href="" class="menu__dropdown--link">Пикассо</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-4-4.jpg)">
+											<a href="" class="menu__dropdown-link">Пикассо</a>
 										</li>
 									</ul>
 								</div>
@@ -230,18 +232,18 @@
 							<li class="menu__item">
 								<button class="menu__btn">Футуризм</button>
 								<div class="menu__dropdown" >
-									<ul class="dropdown__list" data-simplebar>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-5-1.jpg)">
-											<a href="" class="menu__dropdown--link">Карра</a>
+									<ul class="menu__dropdown-list" data-simplebar>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-5-1.jpg)">
+											<a href="" class="menu__dropdown-link">Карра</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-5-2.jpg)">
-											<a href="" class="menu__dropdown--link">Прателла</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-5-2.jpg)">
+											<a href="" class="menu__dropdown-link">Прателла</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-5-3.jpg)">
-											<a href="" class="menu__dropdown--link">Северини</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-5-3.jpg)">
+											<a href="" class="menu__dropdown-link">Северини</a>
 										</li>
-										<li class="menu__dropdown--item" style="background-image: url(img/header-drop-5-4.jpg)">
-											<a href="" class="menu__dropdown--link">Балла</a>
+										<li class="menu__dropdown-item" style="background-image: url(img/header-drop-5-4.jpg)">
+											<a href="" class="menu__dropdown-link">Балла</a>
 										</li>
 									</ul>
 								</div>
@@ -261,9 +263,9 @@
 				<div class="hero">
 					<div class="container hero__container">
 						<div class="hero__block">
-							<h1 class="hero__title">
+							<h2 class="hero__title">
 								Прикоснитесь к прекрасному
-							</h1>
+							</h2>
 							<p class="hero__descr">
 								Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что реализация намеченных плановых заданий создаёт предпосылки для новых предложений.
 							</p>
@@ -294,7 +296,7 @@
 							<span class="gallery__span">Фильтр:</span>
 								<div class="gallery__select-container">
 									<select  name="genre" class="multi-default">
-										<option class="choices__placeholder" value="">Живопись</option>
+										<option class="gallery__choices-placeholder" value="">Живопись</option>
 										<option value="Тинторетто">Рисунок</option>
 										<option value="Фридрих">Скульптура</option>
 									</select>
@@ -321,7 +323,7 @@
 					</div>
 					<div class=" gallery__slider">
 						<div class="gallery__button-block">
-							<div class="swiper-button-prev gallery__arrow_prev">
+							<div class="swiper-button-prev gallery__arrow-prev">
 								<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z" fill="#666666"/>
 									<path d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z" stroke="black"/>
@@ -329,7 +331,7 @@
 								</svg>
 							</div>
 							<div class="swiper-pagination"></div>
-							<div class="swiper-button-next gallery__arrow_next">
+							<div class="swiper-button-next gallery__arrow-next">
 								<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z" fill="#666666"/>
 									<path d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z" stroke="black"/>
@@ -340,7 +342,7 @@
 						<div class="swiper-wrapper">
 							<div class="swiper-slide gallery__card">
 								<button class="gallery__slider-btn">
-									<picture class="swiper__img">
+									<picture class="gallery__swiper-img">
 										<source srcset="img/gallery-slider-min-1.jpg" media="(max-width: 400px)">
 										<source srcset="img/gallery-slider-tel-1.jpg" media="(max-width: 940px)">
 										<source srcset="img/gallery-slider-tab-1.jpg" media="(max-width: 1440px)">
@@ -350,7 +352,7 @@
 							</div>
 							<div class="swiper-slide gallery__card">
 								<button class="gallery__slider-btn">
-									<picture class="swiper__img">
+									<picture class="gallery__swiper-img">
 										<source srcset="img/gallery-slider-min-2.jpg" media="(max-width: 400px)">
 										<source srcset="img/gallery-slider-tel-2.jpg" media="(max-width: 940px)">
 										<source srcset="img/gallery-slider-tab-2.jpg" media="(max-width: 1440px)">
@@ -360,7 +362,7 @@
 							</div>
 							<div class="swiper-slide gallery__card">
 								<button class="gallery__slider-btn">
-									<picture class="swiper__img">
+									<picture class="gallery__swiper-img">
 										<source srcset="img/gallery-slider-min-3.jpg" media="(max-width: 400px)">
 										<source srcset="img/gallery-slider-tel-3.jpg" media="(max-width: 940px)">
 										<source srcset="img/gallery-slider-tab-3.jpg" media="(max-width: 1440px)">
@@ -370,7 +372,7 @@
 							</div>
 							<div class="swiper-slide gallery__card">
 								<button class="gallery__slider-btn">
-									<picture class="swiper__img">
+									<picture class="gallery__swiper-img">
 										<source srcset="img/gallery-slider-min-4.jpg" media="(max-width: 400px)">
 										<source srcset="img/gallery-slider-tel-4.jpg" media="(max-width: 940px)">
 										<source srcset="img/gallery-slider-tab-4.jpg" media="(max-width: 1440px)">
@@ -380,7 +382,7 @@
 							</div>
 							<div class="swiper-slide gallery__card">
 								<button class="gallery__slider-btn">
-									<picture class="swiper__img">
+									<picture class="gallery__swiper-img">
 										<source srcset="img/gallery-slider-min-5.jpg" media="(max-width: 400px)">
 										<source srcset="img/gallery-slider-tel-5.jpg" media="(max-width: 940px)">
 										<source srcset="img/gallery-slider-tab-5.jpg" media="(max-width: 1440px)">
@@ -390,7 +392,7 @@
 							</div>
 							<div class="swiper-slide gallery__card">
 								<button class="gallery__slider-btn">
-									<picture class="swiper__img">
+									<picture class="gallery__swiper-img">
 										<source srcset="img/gallery-slider-min-6.jpg" media="(max-width: 400px)">
 										<source srcset="img/gallery-slider-tel-6.jpg" media="(max-width: 940px)">
 										<source srcset="img/gallery-slider-tab-6.jpg" media="(max-width: 1440px)">
@@ -625,12 +627,12 @@
 			</section>
 
 			<section id="events" class="events">
-				<div class="container event__container">
+				<div class="container events__container">
 					<h2 class="events__title">События</h2>
-					<div class="events__slider--container">
+					<div class="events__slider-container">
 
 						<div class="swiper events__slider">
-              <div class="swiper-button-next events__arrow_next">
+              <div class="swiper-button-next events__arrow-next">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z" fill="#ECECEC"/>
                   <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z" stroke="none"/>
@@ -753,20 +755,20 @@
 					<h2 class="projects__title">Проекты</h2>
 					<p class="projects__descr">
 						Предварительные выводы: постоянное информационно-пропагандистское <button class="projects__tooltip" id="myButton1">i</button> обеспечение нашей деятельности однозначно фиксирует необходимость своевременного выполнения сверхзадачи. А ещё независимые государства смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности. Прежде всего, постоянное информационно-пропагандистское      обеспечение нашей деятельности однозначно фиксирует необходимость экономической целесообразности принимаемых решений. И нет сомнений, что действия представителей оппозиции могут быть рассмотрены <button class="projects__tooltip" id="myButton2">i</button> исключительно в разрезе маркетинговых и финансовых <button class="projects__tooltip" id="myButton3">i</button> предпосылок. Банальные, но неопровержимые выводы, а также представители современных социальных резервов призывают нас к новым свершениям, которые, в свою очередь, должны быть смешаны с не уникальными данными до степени совершенной неузнаваемости. Подробнее:
-						<a class="project__link" href="blanchard-art.ru/projects">blanchard-art.ru/projects</a>
+						<a class="projects__link" href="blanchard-art.ru/projects">blanchard-art.ru/projects</a>
 					</p>
 					<h3 class="projects__partners-title">Партнёры проектов:</h3>
 
-					<div class="pojects__swipper-box">
+					<div class="projects__swipper">
 						<div class="projects__slider">
-              <div class="swiper-button-prev project__arrow_prev">
+              <div class="swiper-button-prev projects__arrow-prev">
                 <svg width="27" height="27" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z" fill="#ECECEC"/>
                   <path d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z" stroke="none"/>
                   <path d="M16 20L11 15L16 10" stroke="black"/>
                 </svg>
               </div>
-              <div class="swiper-button-next project__arrow_next">
+              <div class="swiper-button-next projects__arrow-next">
                 <svg width="27" height="27" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z" fill="#ECECEC"/>
                   <path d="M25 2.72191e-06C38.8071 2.11838e-06 50 11.1929 50 25C50 38.8071 38.8071 50 25 50C11.1929 50 -4.89256e-07 38.8071 -1.09278e-06 25C-1.69631e-06 11.1929 11.1929 3.32544e-06 25 2.72191e-06Z" stroke="none"/>
@@ -774,49 +776,49 @@
                 </svg>
               </div>
               <div class="swiper projects__swiper">
-							<div class="swiper-wrapper project__wrapper">
-								<div class="swiper-slide project__slide">
-									<a class="projects__slide--link" href="">
+							<div class="swiper-wrapper projects__wrapper">
+								<div class="swiper-slide projects__slide">
+									<a class="projects__slide-link" href="">
 										<img class="projects__swiper-img" src="img/projects-slider-1.jpg" alt="slide-1">
 									</a>
 								</div>
-								<div class="swiper-slide project__slide">
-									<a class="projects__slide--link" href="">
+								<div class="swiper-slide projects__slide">
+									<a class="projects__slide-link" href="">
 										<img class="projects__swiper-img" src="img/projects-slider-2.jpg" alt="slide-2">
 									</a>
 								</div>
-								<div class="swiper-slide project__slide">
-									<a class="projects__slide--link" href="">
+								<div class="swiper-slide projects__slide">
+									<a class="projects__slide-link" href="">
 										<img class="projects__swiper-img" src="img/projects-slider-3.jpg" alt="slide-3">
 									</a>
 								</div>
-								<div class="swiper-slide project__slide">
-									<a class="projects__slide--link" href="">
+								<div class="swiper-slide projects__slide">
+									<a class="projects__slide-link" href="">
 										<img class="projects__swiper-img" src="img/projects-slider-4.jpg" alt="slide-4">
 									</a>
 								</div>
-								<div class="swiper-slide project__slide">
-									<a class="projects__slide--link" href="">
+								<div class="swiper-slide projects__slide">
+									<a class="projects__slide-link" href="">
 										<img class="projects__swiper-img" src="img/projects-slider-5.jpg" alt="slide-5">
 									</a>
 								</div>
-								<div class="swiper-slide project__slide">
-									<a class="projects__slide--link" href="">
+								<div class="swiper-slide projects__slide">
+									<a class="projects__slide-link" href="">
 										<img class="projects__swiper-img" src="img/projects-slider-6.jpg" alt="slide-6">
 									</a>
 								</div>
-								<div class="swiper-slide project__slide">
-									<a class="projects__slide--link" href="">
+								<div class="swiper-slide projects__slide">
+									<a class="projects__slide-link" href="">
 										<img class="projects__swiper-img" src="img/projects-slider-7.jpg" alt="slide-7">
 									</a>
 								</div>
-								<div class="swiper-slide project__slide">
-									<a class="projects__slide--link" href="">
+								<div class="swiper-slide projects__slide">
+									<a class="projects__slide-link" href="">
 										<img class="projects__swiper-img" src="img/projects-slider-8.jpg" alt="slide-8">
 									</a>
 								</div>
-								<div class="swiper-slide project__slide">
-									<a class="projects__slide--link" href="">
+								<div class="swiper-slide projects__slide">
+									<a class="projects__slide-link" href="">
 										<img class="projects__swiper-img" src="img/projects-slider-9.jpg" alt="slide-9">
 									</a>
 								</div>
@@ -836,28 +838,28 @@
 							<span class="location__adress-descr">Леонтьевский переулок, дом 5/1</span>
 						</div>
 						<form method="POST" id="form" class="form" action="https://postman-echo.com/post">
-						<label for="name" class="label">
-							<input class="form__input"
-							name="name"
-							type="text"
-							placeholder="Имя*"
-              id="name"
-						>
-						</label>
-						<label class="label">
-							<input class="form__input"
-							name="tel"
-							type="tel"
-							placeholder="Телефон*"
-              id="tel"
-						>
-						</label>
-							<button class="btn__input btn__input--dext">
-								Заказать обратный звонок
-							</button>
-							<button class="btn__input btn__input--min">
-								Заказать
-							</button>
+              <label for="name" class="label">
+                <input class="form__input"
+                name="name"
+                type="text"
+                placeholder="Имя*"
+                id="name"
+              >
+              </label>
+              <label class="label">
+                <input class="form__input"
+                name="tel"
+                type="tel"
+                placeholder="Телефон*"
+                id="tel"
+              >
+              </label>
+              <button class="form__btn form__btn-dext">
+                Заказать обратный звонок
+              </button>
+              <button class="form__btn form__btn-min">
+                Заказать
+              </button>
 						</form>
 						<div class="location__connection">
 							<h3 class="location__title location__title--bot">Связаться в один клик</h3>
@@ -885,8 +887,8 @@
 					</div>
 				</div>
 				</div>
-				<div class="map__block">
-				<div class="map" id="map" style="width: 100%; height: 100%"></div>
+				<div class="map-block">
+				<div class="map-block__map" id="map" style="width: 100%; height: 100%"></div>
 			</div>
 			</section>
 		</main>
